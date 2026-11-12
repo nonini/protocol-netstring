@@ -1,5 +1,5 @@
 {
-    "name": "gipfl/protocol-netstring",
+    "name": "nonini/protocol-netstring",
     "description": "Simple NetString stream wrapper",
     "type": "library",
     "license": "MIT",
@@ -14,12 +14,18 @@
     },
     "autoload": {
         "psr-4": {
-            "gipfl\\Protocol\\NetString\\": "src"
+            "nonini\\Protocol\\NetString\\": "src"
         }
     },
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.4.0",
         "ext-ctype": "*",
-        "gipfl/protocol": ">=0.2"
+        "nonini/protocol": ">=0.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10 || ^2",
+        "phpunit/phpunit": "^10.3 || ^13",
+        "squizlabs/php_codesniffer": "^3.7 || ^4",
+        "symplify/easy-coding-standard": "^12.0.8 || ^13"
     }
 }
