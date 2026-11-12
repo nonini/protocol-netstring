@@ -4,7 +4,6 @@ namespace nonini\Protocol\NetString;
 
 use nonini\Protocol\Exception\ProtocolError;
 use nonini\Protocol\Generic\AbstractStreamWrapper;
-
 use RuntimeException;
 use Stringable;
 
